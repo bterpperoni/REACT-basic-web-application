@@ -9,17 +9,17 @@ h1{
     background-color: aqua;
 }
 
-.btn-nav{
-    text-decoration: none;
-    color: white;
-    background-color: var(--green);
-    padding: 0.5rem;
-    border-radius: 10%;
-  }
-  
-  .btn-nav:hover{
-      background-color: white;
-      color: var(--green);
-      box-shadow: 0 0 0 2px white, 0 0 0 3px var(--green);
-  }
+.display-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.display-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
 

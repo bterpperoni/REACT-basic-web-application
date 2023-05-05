@@ -18,8 +18,9 @@ const Structures = () => {
             <Button href="/" children="Home" className="btn-nav"></Button>
             <Button href="/structures" children="Structures" className="btn-nav"></Button>
         </Nav>
-        <div>
+        <div className="display-column">
         <Dropdown selectedValue={selectedValue} onSelectedValueChange={handleSelectedValueChange} class="dropdown-structures" label="Structure's list : "></Dropdown>
+        <Button href="/structure" children="Display structure's data" className="btn-read-structure"></Button>
         </div>
         </>
 

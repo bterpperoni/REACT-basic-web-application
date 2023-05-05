@@ -16,3 +16,21 @@
   .btn-nav:first-child{
     margin-left: 0.5rem;
   }
+
+  .btn-read-structure{
+    position: relative;
+    top: 0.5rem;
+    font-size: 1.5rem;
+    background: var(--dark-green);
+    color: white;
+    border: 0 none;
+    cursor: pointer;
+    padding: 1rem;
+    text-decoration: none;
+    border-radius: 1vh;
+}
+
+.btn-read-structure:hover{
+    font-size: 1.51rem;
+    box-shadow: 0 0 0 2px white, 0 0 0 3px var(--green);
+}
