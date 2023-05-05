@@ -1,0 +1,25 @@
+:root{
+    --green : #27AE60;
+    --light-green : #78d69f;
+    --dark-green : #29854f;
+    --border-table: rgb(200, 200, 200);
+}
+
+h1{
+    background-color: aqua;
+}
+
+.btn-nav{
+    text-decoration: none;
+    color: white;
+    background-color: var(--green);
+    padding: 0.5rem;
+    border-radius: 10%;
+  }
+  
+  .btn-nav:hover{
+      background-color: white;
+      color: var(--green);
+      box-shadow: 0 0 0 2px white, 0 0 0 3px var(--green);
+  }
+
